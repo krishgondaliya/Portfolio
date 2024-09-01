@@ -5,13 +5,11 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
-
-    // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
-      screens: { sm: "480px", md: "768px", lg: "976px", xl: "1440pd" },
+      screens: { sm: "480px", md: "768px", lg: "976px", xl: "1440px" }, // Corrected 'xl' value
       animation: {
         fadeIn: "fadeIn 1.5s",
         bounce:
@@ -38,6 +36,13 @@ module.exports = {
         bounce: {
           from: { transform: "translateY(10px)" },
           to: { transform: "translateY(0)" },
+        },
+      },
+      colors: {
+        dark: {
+          bg: '#1a1a1a',
+          text: '#eaeaea',
+          accent: '#ff5722',
         },
       },
     },

@@ -11,12 +11,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
       <head />
-      <body className="dark:bg-stone-900">
+      <body className="bg-white dark:bg-dark-bg text-gray-900 dark:text-dark-text">
         <ThemeProvider enableSystem={true} attribute="class">
           <Navbar />
           {children}

@@ -6,27 +6,12 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "EigenFace/Face-Recognition",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
-  },
-  {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
-  },
-  {
-    name: "Kator Family Photos",
-    description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+      "The Eigenface project involved implementing facial recognition using OpenCV in C++ and Python, leveraging Principal Component Analysis (PCA) to identify and classify human faces based on eigenvectors derived from a training dataset.",
+    image: "/Eigenface_Github_Image.jpg",
+    github: "https://github.com/krishgondaliya/EigenFace-Facial-Recognition",
+    link: "https://drive.google.com/file/d/1QWD8ppAbDKDMr65DFYCiTdr_5IRGah0W/view?usp=sharing",
   },
 ]
 
@@ -38,17 +23,17 @@ const ProjectsSection = () => {
         <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
       </h1>
 
-      <div className="flex flex-col space-y-28">
+      <div className="flex flex-col space-y-24">
         {projects.map((project, idx) => {
           return (
             <div key={idx}>
               <SlideUp offset="-300px 0px -300px 0px">
-                <div className="flex flex-col  animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
-                  <div className=" md:w-1/2">
+                <div className="flex flex-col animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
+                  <div className="md:w-1/2">
                     <Link href={project.link}>
                       <Image
                         src={project.image}
-                        alt=""
+                        alt={project.name}
                         width={1000}
                         height={1000}
                         className="rounded-xl shadow-xl hover:opacity-70"
@@ -80,7 +65,10 @@ const ProjectsSection = () => {
             </div>
           )
         })}
-        
+        {/* Message for more projects */}
+        <div className="text-center text-2xl font-semibold text-neutral-800 dark:text-neutral-300 mt-8">
+          More Projects To Be Uploaded...
+        </div>
       </div>
     </section>
   )
