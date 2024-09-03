@@ -25,12 +25,12 @@ const HeroSection = () => {
             </span>
             student at
             <span className="font-semibold text-teal-600">
-              &nbsp;Rutgers University-New Brunswick, NJ.
+              &nbsp;Rutgers University- New Brunswick, NJ.
             </span>
             &nbsp;I am passionate about Full-Stack Development, Distributed Systems, and Mobile App Development, and I&apos;m actively seeking opportunities to apply my skills and contribute to impactful projects.
           </p>
           <a
-            href="https://drive.google.com/uc?export=download&id=1M-dxbF16g8_9pRO-LHT-RXdE38TSoh7c"
+            href="https://drive.google.com/uc?export=download&id=1iQ5Pong3XZODVJp4i--qPI_DMjv4W-KZ"
             className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
           >
             Download Resume
