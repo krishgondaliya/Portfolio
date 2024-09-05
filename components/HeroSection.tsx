@@ -27,7 +27,7 @@ const HeroSection = () => {
             <span className="font-semibold text-teal-600">
               &nbsp;Rutgers University- New Brunswick, NJ.
             </span>
-            &nbsp;I am passionate about Full-Stack Development, Distributed Systems, and Mobile App Development, and I&apos;m actively seeking opportunities to apply my skills and contribute to impactful projects.
+            &nbsp;I am passionate about Full-Stack Development, Mobile App Development, Distributed Systems, & Generative-AI Models, and I&apos;m actively seeking opportunities to apply my skills and contribute to impactful projects.
           </p>
           <a
             href="https://drive.google.com/uc?export=download&id=1NE6RhLD9OVAUf36ziXhmwE6pkw66dLg9"
