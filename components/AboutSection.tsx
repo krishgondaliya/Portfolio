@@ -57,7 +57,7 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p className="text-lg md:text-xl">
-              Hello, I’m Krish Gondaliya, a junior at Rutgers University pursuing CS and Data Science. I have developed a solid foundation in various aspects of technology through hands-on projects and academic coursework. My interests lie in Full-Stack Development, Distributed Systems, and Mobile App Development.
+              Hello, I’m Krish Gondaliya, a junior at Rutgers University pursuing CS and Data Science. I have developed a solid foundation in various aspects of technology through hands-on projects and academic coursework.
             </p>
             <br />
             <p className="text-lg md:text-xl">
@@ -65,7 +65,7 @@ const AboutSection = () => {
             </p>
             <br />
             <p className="text-lg md:text-xl">
-              For any inquiries or opportunities, feel free to reach out to me at:{" "}
+              For any inquiries or opportunities, please feel free to reach out to me at:{" "}
               <span className="font-bold text-teal-500">
                 <a href="mailto:k.gondaliya@rutgers.edu">k.gondaliya@rutgers.edu</a>
               </span>
