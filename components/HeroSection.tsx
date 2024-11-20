@@ -30,7 +30,7 @@ const HeroSection = () => {
             &nbsp;I am passionate about Full-Stack Development, Mobile App Development, Distributed Systems, & Generative-AI Models, and I&apos;m actively seeking opportunities to apply my skills and contribute to impactful projects.
           </p>
           <a
-            href="https://drive.google.com/uc?export=download&id=1NE6RhLD9OVAUf36ziXhmwE6pkw66dLg9"
+            href=""
             className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
           >
             Download Resume
