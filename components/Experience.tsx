@@ -29,15 +29,7 @@ const experiences = [
         company: "Rutgers University",
         date: "September 2023 - Present",
         description: [
-            "Organized and managed club activities, helping members prepare for programming contests. Contributed to the team's participation in the ICPC Greater New York Regional Contest in 2023 at Columbia University."
-        ]
-    },
-    {
-        title: "Undergraduate Student Alliance of Computer Scientists (USACS) Member",
-        company: "Rutgers University",
-        date: "September 2023 - Present",
-        description: [
-            "Actively participated in various tech-related activities like Hackthons and projects, contributing to the CS community at Rutgers."
+            "Participated in club activities, collaborating with members preparing for programming contests."
         ]
     },
 ]
