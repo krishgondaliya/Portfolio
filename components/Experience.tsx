@@ -3,18 +3,15 @@ import SlideUp from "./SlideUp"
 
 const experiences = [
     {
-        title: "IT Student Consultant and Technician",
-        company: "Rutgers University Institutional Planning and Operation",
-        date: "March 2024 - Present",
-        location: "Edison, New Jersey",
+        title: "Software Engineering Intern",
+        company: "Charles Schwab",
+        date: "May 2025 - Present",
+        location: "Austin, TX",
         description: [
-            "Provided technical support on various IT issues including software installations, hardware troubleshooting, and network connectivity problems, resulting in a 95% issue resolution rate on first contact.",
-            "Maintained and administered over 30 multimedia systems of classroom technology, ensuring smooth operation of equipment and resources for academic use.",
-            "Contributed to the documentation and updating of 20+ support procedures and knowledge base articles to facilitate consistent and accurate support delivery."
         ]
     },
     {
-        title: "Full-Stack Software Engineering Intern",
+        title: "Software Engineering Intern",
         company: "Knovos LLC",
         date: "May 2023 - August 2023",
         location: "Hybrid",
@@ -22,6 +19,17 @@ const experiences = [
             "Optimized code designs and adhered to the Software Development Life Cycle (SDLC) by implementing Agile and Scrum methodologies, which reduced project delivery times and enhanced team collaboration.",
             "Developed POST, GET, and DELETE endpoints using Java and Spring Boot API framework, which reduced data processing time by 40%, resulting in faster response rates and improved user experience.",
             "Implemented diverse features and components, resolved bugs, and wrote 90+ unit tests using testing framework like Mockito, gaining proficiency in test-driven and agile development methodologies."
+        ]
+    },
+    {
+        title: "IT Student Consultant and Technician",
+        company: "Rutgers University Institutional Planning and Operation",
+        date: "March 2024 - Present",
+        location: "Edison, NJ",
+        description: [
+            "Provided technical support on various IT issues including software installations, hardware troubleshooting, and network connectivity problems, resulting in a 95% issue resolution rate on first contact.",
+            "Maintained and administered over 30 multimedia systems of classroom technology, ensuring smooth operation of equipment and resources for academic use.",
+            "Contributed to the documentation and updating of 20+ support procedures and knowledge base articles to facilitate consistent and accurate support delivery."
         ]
     },
     {

@@ -8,35 +8,40 @@ const skills = [
   { skill: "TypeScript" },
   { skill: "Python" },
   { skill: "React" },
-  { skill: "Next.js" },
+  { skill: "Next" },
   { skill: "Tailwind CSS" },
   { skill: "Git" },
   { skill: "GitHub" },
-  { skill: "Jupyter Notebooks" },
+  { skill: "Bamboo" },
   { skill: "C++" },
   { skill: "Java" },
   { skill: "SQL" },
+  { skill: "NoSQL" },
   { skill: "Node.js" },
   { skill: "Spring Boot" },
   { skill: "Django" },
-  { skill: "OpenCV" },
+  { skill: "REST API" },
   { skill: "MongoDB" },
   { skill: "MySQL" },
   { skill: "Bootstrap" },
-  { skill: "Azure" },
-  { skill: "AWS" },
+  { skill: "Azure CosmosDB" },
+  { skill: "AWS S3" },
   { skill: ".NET" },
   { skill: "Ruby" },
   { skill: "Scala" },
   { skill: "C#" },
-  { skill: "R" },
+  { skill: "Redis" },
   { skill: "Vue" },
   { skill: "Angular" },
-  { skill: "Express" },
+  { skill: "Kafka" },
+  { skill: "RabbitMQ" },
+  { skill: "Splunk" },
   { skill: "Mockito" },
   { skill: "PostgreSQL" },
   { skill: "Redis" },
-  { skill: "GitLab" },
+  { skill: "JIRA" },
+  { skill: "Confluence" },
+  { skill: "PostgreSQL" },
   { skill: "Linux" },
   { skill: "CI/CD" },
   { skill: "Docker" },
@@ -61,13 +66,13 @@ const AboutSection = () => {
             </p>
             <br />
             <p className="text-lg md:text-xl">
-              I am eager to apply my skills in real-world settings and seek out internship and co-op opportunities that challenge me to grow. My goal is to contribute effectively while honing both my programming and leadership skills.
+              I am eager to apply my skills in real-world settings and seek out Full-Time opportunities that challenge me to grow. My goal is to contribute effectively while honing both my programming and leadership skills.
             </p>
             <br />
             <p className="text-lg md:text-xl">
               For any inquiries or opportunities, please feel free to reach out to me at:{" "}
               <span className="font-bold text-teal-500">
-                <a href="mailto:k.gondaliya@rutgers.edu">k.gondaliya@rutgers.edu</a>
+                <a href="mailto:krishgondaliya23@gmail.com">krishgondaliya23@gmail.com</a>
               </span>
             </p>
           </div>
