@@ -4,8 +4,8 @@ import SlideUp from "./SlideUp"
 const experiences = [
     {
         title: "Software Engineering Intern",
-        company: "Charles Schwab",
-        date: "May 2025 - Present",
+        company: "Charles Schwab Corporation",
+        date: "May 2025 - Aug 2025",
         location: "Austin, TX",
         description: [
         ]
