@@ -62,11 +62,11 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p className="text-lg md:text-xl">
-              Hello, I’m Krish Gondaliya, a junior at Rutgers University pursuing CS and Data Science. I have developed a solid foundation in various aspects of technology through hands-on projects and academic coursework.
+              Hello, I’m Krish Gondaliya, a senior at Rutgers University pursuing Computer Science. I have developed a solid foundation in various aspects of technology through hands-on projects and academic coursework.
             </p>
             <br />
             <p className="text-lg md:text-xl">
-              I am eager to apply my skills in real-world settings and seek out Full-Time opportunities that challenge me to grow. My goal is to contribute effectively while honing both my programming and leadership skills.
+            I love working and building products so my goal is to contribute effectively while honing both my programming and leadership skills.
             </p>
             <br />
             <p className="text-lg md:text-xl">
